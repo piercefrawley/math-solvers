@@ -1,0 +1,7 @@
+<h3> Current Max: <%= max %> </h3>
+<a href='/primes'>Generate new prime series</a>
+<ul>
+  <% primes.map(function(prime) { %>
+    <li><%= prime %></li>
+  <% }) %>
+<ul>
